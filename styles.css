@@ -494,3 +494,18 @@ body::before {
     background: rgba(255,255,255,0.45);
     pointer-events: none;
 }
+/* LOGO DE FONDO — SOLO UNA VEZ */
+body {
+    background: radial-gradient(circle at top, #fdf7ed 0, #f5e7cf 40%, #f1ddbc 100%);
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 380px; /* Ajusta aquí el tamaño del logo */
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,0.35);
+    pointer-events: none;
+}
