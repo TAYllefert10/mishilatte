@@ -359,3 +359,103 @@ footer {
         justify-content: center;
     }
 }
+/* ==================================== */
+/*             LOGO DEL HEADER          */
+/* ==================================== */
+.brand-logo {
+    height: 32px;
+    width: auto;
+    border-radius: 6px;
+}
+
+/* ==================================== */
+/*            HERO PREMIUM              */
+/* ==================================== */
+
+.hero-premium {
+    padding: 5rem 1.4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #fdf7ed 0%, #f2dcc0 40%, #eec9a4 100%);
+    border-radius: 26px;
+    box-shadow: var(--shadow-suave);
+}
+
+.hero-premium-inner {
+    max-width: 680px;
+}
+
+.hero-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 1.2rem;
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.1));
+}
+
+.hero-title {
+    font-size: 2.4rem;
+    color: var(--marron-oscuro);
+    margin: 0;
+    font-weight: 800;
+}
+
+.hero-tagline {
+    margin-top: 0.3rem;
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
+
+.hero-desc {
+    margin: 1.2rem auto;
+    max-width: 550px;
+    font-size: 1rem;
+    line-height: 1.65;
+    opacity: 0.85;
+}
+
+.hero-buttons {
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* ==================================== */
+/*           FEATURES SECTION           */
+/* ==================================== */
+
+.features {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.features h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.4rem;
+    color: var(--marron-oscuro);
+}
+
+.features-grid {
+    display: grid;
+    gap: 1.6rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.feature-box {
+    padding: 1.3rem;
+    background: white;
+    border-radius: 18px;
+    box-shadow: var(--shadow-suave);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.feature-icon {
+    font-size: 2.6rem;
+    margin-bottom: 0.6rem;
+}
