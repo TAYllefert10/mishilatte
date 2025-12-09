@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservar visita · Mishilatte</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="nav">
+        <div class="logo"><div class="logo-mark">🐾</div>Mishilatte</div>
+
+        <nav class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="carta.html">Carta</a>
+            <a href="gatos.html">Gatos en adopción</a>
+            <a href="donaciones.html">Donaciones y apadrinar</a>
+        </nav>
+
+        <button class="nav-cta" onclick="location.href='reservar.html'">Reservar visita</button>
+    </div>
+</header>
+
+<main>
+
+    <section id="reservar">
+        <div class="section-header">
+            <div>
+                <h2>Reservar Visita</h2>
+                <p>Reserva tu experiencia en el cat café y disfruta con nuestros felinos.</p>
+            </div>
+        </div>
+
+        <form>
+            <h3 class="form-title">Formulario de Reserva</h3>
+
+            <div class="form-row two">
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label>Correo electrónico</label>
+                    <input type="email" required>
+                </div>
+            </div>
+
+            <div class="form-row two">
+                <div>
+                    <label>Fecha</label>
+                    <input type="date" required>
+                </div>
+                <div>
+                    <label>Hora</label>
+                    <input type="time" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label>Comentarios</label>
+                <textarea placeholder="¿Vienes por una ocasión especial?"></textarea>
+            </div>
+
+            <button class="btn btn-primary">Reservar</button>
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <span>© Mishilatte</span><span>Maqueta educativa.</span>
+    </div>
+</footer>
+
+</body>
+</html>
