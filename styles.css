@@ -459,3 +459,38 @@ footer {
     font-size: 2.6rem;
     margin-bottom: 0.6rem;
 }
+body {
+    background: radial-gradient(circle at top, #fdf7ed 0, #f5e7cf 40%, #f1ddbc 100%);
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 420px; /* ajusta el tamaño */
+    opacity: 0.99; /* evita que se coma los degradados */
+}
+
+main {
+    backdrop-filter: blur(2px); /* hace que el contenido resalte */
+}
+body {
+    background: radial-gradient(circle at top, #fdf7ed 0, #f5e7cf 40%, #f1ddbc 100%);
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-position: center 65px;
+    background-size: 350px;
+    opacity: 0.99;
+}
+body {
+    background-color: #f8f3e9;
+    background-image: url("logo.png");
+    background-repeat: repeat;
+    background-size: 120px;
+    opacity: 0.97;
+    filter: brightness(1.05);
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,0.45);
+    pointer-events: none;
+}
