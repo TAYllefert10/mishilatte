@@ -8,9 +8,12 @@
 </head>
 
 <body>
+
 <header>
     <div class="nav">
-        <div class="logo"><div class="logo-mark">🐾</div><span>Mishilatte</span></div>
+        <div class="logo">
+            <div class="logo-mark">🐾</div><span>Mishilatte</span>
+        </div>
         <nav class="nav-links">
             <a href="index.html">Inicio</a>
             <a href="carta.html">Carta</a>
@@ -22,126 +25,338 @@
 </header>
 
 <main>
-    <section id="carta">
-        <div class="section-header">
-            <div>
-                <h2>Carta Mishilatte</h2>
-                <p>Cafés, snacks y dulces inspirados en nuestros felinos.</p>
-            </div>
+
+<section id="carta">
+    <div class="section-header">
+        <div>
+            <h2>Carta Mishilatte</h2>
+            <p>Cafés de autor, bebidas especiales, snacks y dulces inspirados en nuestros felinos.</p>
         </div>
+        <p style="font-size:0.8rem;opacity:0.85;">Opciones veganas, sin lactosa y sin gluten disponibles.</p>
+    </div>
 
-        <div class="menu-layout">
+    <div class="menu-layout">
 
-            <div>
-                <!-- BEBIDAS -->
-                <div class="menu-group">
-                    <h3>Cafés y bebidas</h3>
-                    <div class="menu-grid">
+        <!-- ===================== -->
+        <!--      COLUMNA IZQUIERDA -->
+        <!-- ===================== -->
 
-                        <!-- Copio y pego TODO lo que tienes en tu index -->
-                        <!-- Aquí entrarían los 7 productos -->
-                        <!-- Mantengo exactamente tus imágenes y textos -->
+        <div>
 
-                        <!-- EJEMPLO (el resto igual que en tu index): -->
-                        <article class="menu-card">
-                            <div class="menu-thumb">
-                                <img src="bebidas/Mishi_Mimoso.jpg" alt="">
-                            </div>
-                            <div class="menu-body">
-                                <div class="menu-title-row">
-                                    <span class="menu-title">Latte “Michi Mimoso”</span>
-                                    <span class="menu-price">2,90 €</span>
-                                </div>
-                                <p class="menu-desc">Espresso suave con leche vaporizada.</p>
-                            </div>
-                        </article>
-
-                        <!-- ...TODOS LOS DEMÁS BEBIDAS AQUÍ IGUAL QUE EN INDEX -->
-
-                    </div>
-                </div>
-
-                <!-- SNACKS -->
-                <div class="menu-group">
-                    <h3>Snacks y comida</h3>
-                    <div class="menu-grid">
-
-                        <!-- Copiados exactamente de tu index -->
-                        <!-- 6 productos -->
-
-                    </div>
-                </div>
-
-                <!-- DULCES -->
-                <div class="menu-group">
-                    <h3>Postres y dulces</h3>
-                    <div class="menu-grid">
-
-                        <!-- Galleta de gato -->
-                        <article class="menu-card">
-                            <div class="menu-thumb">
-                                <img src="bebidas/Galleta_de_Gato.jpg" alt="">
-                            </div>
-                            <div class="menu-body">
-                                <div class="menu-title-row">
-                                    <span class="menu-title">Galleta de gato</span>
-                                    <span class="menu-price">1,50 €</span>
-                                </div>
-                                <p class="menu-desc">Perfecta para acompañar tu café.</p>
-                            </div>
-                        </article>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- COMBOS -->
-            <aside class="menu-summary">
-                <h3>Combos</h3>
-                <p>Perfectos para disfrutar acompañado.</p>
-
+            <!-- ===================== -->
+            <!--    CAFÉS Y BEBIDAS     -->
+            <!-- ===================== -->
+            <div class="menu-group">
+                <h3>Cafés y bebidas</h3>
                 <div class="menu-grid">
+
+                    <!-- 1 -->
                     <article class="menu-card">
                         <div class="menu-thumb">
-                            <img src="Combos y opciones especiales/Mishi_Brunch.jpg" alt="">
+                            <img src="bebidas/Mishi_Mimoso.jpg" alt="Latte Michi Mimoso">
                         </div>
                         <div class="menu-body">
-                            <span class="menu-title">Combo “Mishi Brunch”</span>
-                            <span class="menu-price">9,90 €</span>
-                            <p class="menu-desc">Café + tostada + dulce.</p>
+                            <div class="menu-title-row">
+                                <span class="menu-title">Latte “Michi Mimoso”</span>
+                                <span class="menu-price">2,90 €</span>
+                            </div>
+                            <p class="menu-desc">Espresso suave con leche vaporizada y arte latte.</p>
+                            <span class="menu-tag">Café de especialidad · Cremoso</span>
                         </div>
                     </article>
 
+                    <!-- 2 -->
                     <article class="menu-card">
                         <div class="menu-thumb">
-                            <img src="Combos y opciones especiales/Caja_Gatuna_para_llevar.jpg" alt="">
+                            <img src="bebidas/Gato_Traviesojpg.jpg" alt="Cappuccino Gato Travieso">
                         </div>
                         <div class="menu-body">
-                            <span class="menu-title">Caja Gatuna</span>
-                            <span class="menu-price">7,90 €</span>
+                            <div class="menu-title-row">
+                                <span class="menu-title">Cappuccino “Gato Travieso”</span>
+                                <span class="menu-price">3,10 €</span>
+                            </div>
+                            <p class="menu-desc">Cappuccino intenso con espuma y cacao en forma de huellas.</p>
+                            <span class="menu-tag">Aromático · Divertido</span>
                         </div>
                     </article>
 
+                    <!-- 3 -->
                     <article class="menu-card">
                         <div class="menu-thumb">
-                            <img src="Combos y opciones especiales/Pequeños_Gatitos.jpg" alt="">
+                            <img src="bebidas/Gato_Negrojpg.jpg" alt="Espresso Gato Negro">
                         </div>
                         <div class="menu-body">
-                            <span class="menu-title">Pequeños Gatitos</span>
-                            <span class="menu-price">5,50 €</span>
+                            <div class="menu-title-row">
+                                <span class="menu-title">Espresso “Gato Negro”</span>
+                                <span class="menu-price">2,00 €</span>
+                            </div>
+                            <p class="menu-desc">Doble shot de tueste oscuro, notas a chocolate.</p>
+                            <span class="menu-tag">Intenso · Para amantes del café fuerte</span>
                         </div>
                     </article>
+
+                    <!-- 4 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="bebidas/Verde_Felino.jpg" alt="Matcha Verde Felino">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Matcha “Verde Felino”</span>
+                                <span class="menu-price">3,40 €</span>
+                            </div>
+                            <p class="menu-desc">Latte de té matcha suave y espumoso.</p>
+                            <span class="menu-tag">Matcha · Cremoso</span>
+                        </div>
+                    </article>
+
+                    <!-- 5 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="bebidas/Gato_Frutilla.jpg" alt="Batido Gato Frutilla">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Batido “Gato Frutilla”</span>
+                                <span class="menu-price">3,80 €</span>
+                            </div>
+                            <p class="menu-desc">Batido de fresa con nata y decoración felina.</p>
+                            <span class="menu-tag">Frutal · Refrescante</span>
+                        </div>
+                    </article>
+
+                    <!-- 6 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="bebidas/Mishi_Helado.jpg" alt="Café helado Mishi Helado">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Café helado “Mishi Helado”</span>
+                                <span class="menu-price">3,60 €</span>
+                            </div>
+                            <p class="menu-desc">Café frío con bola de helado de vainilla.</p>
+                            <span class="menu-tag">Frío · Perfecto para verano</span>
+                        </div>
+                    </article>
+
+                    <!-- 7 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="bebidas/Gatito_Dormilón.jpg" alt="Chocolate Gatito Dormilón">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Chocolate “Gatito Dormilón”</span>
+                                <span class="menu-price">3,20 €</span>
+                            </div>
+                            <p class="menu-desc">Chocolate caliente espeso y aromático.</p>
+                            <span class="menu-tag">Sin café · Ideal para peques</span>
+                        </div>
+                    </article>
+
                 </div>
-            </aside>
+            </div>
 
-        </div>
-    </section>
+
+
+
+            <!-- ===================== -->
+            <!--   COMIDA Y SNACKS      -->
+            <!-- ===================== -->
+            <div class="menu-group">
+                <h3>Comida y snacks</h3>
+                <div class="menu-grid">
+
+                    <!-- 1 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="COMIDA Y SNACKS/Gato_Madrugador.jpg" alt="Tostada Gato Madrugador">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Tostada “Gato Madrugador”</span>
+                                <span class="menu-price">3,90 €</span>
+                            </div>
+                            <p class="menu-desc">Pan de masa madre, tomate rallado y aceite de oliva.</p>
+                            <span class="menu-tag">Clásico desayuno</span>
+                        </div>
+                    </article>
+
+                    <!-- 2 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="COMIDA Y SNACKS/Gato_Nube.jpg" alt="Tostada Gato Nube">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Tostada “Gato Nube”</span>
+                                <span class="menu-price">4,20 €</span>
+                            </div>
+                            <p class="menu-desc">Tostada dulce con crema de queso y fruta.</p>
+                            <span class="menu-tag">Dulce · Suave</span>
+                        </div>
+                    </article>
+
+                    <!-- 3 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="COMIDA Y SNACKS/Gato_Goloso.jpg" alt="Tostada Gato Goloso">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Tostada “Gato Goloso”</span>
+                                <span class="menu-price">4,50 €</span>
+                            </div>
+                            <p class="menu-desc">Crema de cacao, plátano y chips de chocolate.</p>
+                            <span class="menu-tag">Muy dulce · Para golosos</span>
+                        </div>
+                    </article>
+
+                    <!-- 4 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="COMIDA Y SNACKS/Mishi_Club.jpg" alt="Sándwich Mishi Club">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Sándwich “Mishi Club”</span>
+                                <span class="menu-price">5,80 €</span>
+                            </div>
+                            <p class="menu-desc">Triple sándwich con pollo, lechuga y salsa especial.</p>
+                            <span class="menu-tag">Salado · Contundente</span>
+                        </div>
+                    </article>
+
+                    <!-- 5 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="COMIDA Y SNACKS/Mishi_Vainilla.jpg" alt="Tostada Mishi Vainilla">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Tostada “Mishi Vainilla”</span>
+                                <span class="menu-price">4,30 €</span>
+                            </div>
+                            <p class="menu-desc">Crema de vainilla, frutas y sirope.</p>
+                            <span class="menu-tag">Dulce · Cremosa</span>
+                        </div>
+                    </article>
+
+                    <!-- 6 -->
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="COMIDA Y SNACKS/Huella_Dulce.jpg" alt="Postre Huella Dulce">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Postre “Huella Dulce”</span>
+                                <span class="menu-price">3,90 €</span>
+                            </div>
+                            <p class="menu-desc">Mini bizcocho con azúcar glas en forma de huella.</p>
+                            <span class="menu-tag">Postre · Para compartir</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+
+            <!-- ===================== -->
+            <!--   POSTRES Y DULCES    -->
+            <!-- ===================== -->
+            <div class="menu-group">
+                <h3>Postres y dulces</h3>
+                <div class="menu-grid">
+
+                    <article class="menu-card">
+                        <div class="menu-thumb">
+                            <img src="bebidas/Galleta_de_Gato.jpg" alt="Galleta de gato">
+                        </div>
+                        <div class="menu-body">
+                            <div class="menu-title-row">
+                                <span class="menu-title">Galleta de gato</span>
+                                <span class="menu-price">1,50 €</span>
+                            </div>
+                            <p class="menu-desc">Galleta de mantequilla con forma de gato.</p>
+                            <span class="menu-tag">Dulce · Individual</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+        </div> <!-- FIN COLUMNA IZQUIERDA -->
+
+
+
+        <!-- ===================== -->
+        <!--     COMBOS (RIGHT)    -->
+        <!-- ===================== -->
+        <aside class="menu-summary">
+
+            <h3>Combos y opciones especiales</h3>
+            <p>Perfectos para disfrutar acompañado.</p>
+
+            <ul class="mini-list">
+                <li>Incluyen bebida + comida/dulce.</li>
+                <li>Parte del importe va a cuidados veterinarios.</li>
+                <li>Disponibles hasta fin de existencias.</li>
+            </ul>
+
+            <div class="menu-grid">
+
+                <article class="menu-card">
+                    <div class="menu-thumb">
+                        <img src="Combos y opciones especiales/Mishi_Brunch.jpg" alt="Combo Mishi Brunch">
+                    </div>
+                    <div class="menu-body">
+                        <span class="menu-title">Combo “Mishi Brunch”</span>
+                        <span class="menu-price">9,90 €</span>
+                        <p class="menu-desc">Café + tostada salada + dulce del día.</p>
+                        <span class="menu-tag">Brunch · Completo</span>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-thumb">
+                        <img src="Combos y opciones especiales/Caja_Gatuna_para_llevar.jpg" alt="Caja Gatuna">
+                    </div>
+                    <div class="menu-body">
+                        <span class="menu-title">Caja Gatuna para llevar</span>
+                        <span class="menu-price">7,90 €</span>
+                        <p class="menu-desc">Selección de dulces felinos para llevar.</p>
+                        <span class="menu-tag">Take Away</span>
+                    </div>
+                </article>
+
+                <article class="menu-card">
+                    <div class="menu-thumb">
+                        <img src="Combos y opciones especiales/Pequeños_Gatitos.jpg" alt="Combo Pequeños Gatitos">
+                    </div>
+                    <div class="menu-body">
+                        <span class="menu-title">Combo “Pequeños Gatitos”</span>
+                        <span class="menu-price">5,50 €</span>
+                        <p class="menu-desc">Mini dulces y galletas.</p>
+                        <span class="menu-tag">Ideal para dos</span>
+                    </div>
+                </article>
+
+            </div>
+
+        </aside>
+
+    </div> <!-- FIN MENU-LAYOUT -->
+
+</section>
+
 </main>
 
 <footer>
     <div class="footer-inner">
-        <span>© Mishilatte</span>
-        <span>Maqueta educativa.</span>
+        <span>© Mishilatte · Cat café & adopciones responsables.</span>
+        <span>Este sitio es una maqueta educativa.</span>
     </div>
 </footer>
 
